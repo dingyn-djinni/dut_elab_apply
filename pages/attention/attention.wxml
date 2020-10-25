@@ -1,0 +1,18 @@
+<view class='container'>
+  
+  <view class='help_tips_container'>
+    <view class='help_tips1'>
+      <text decode="{{true}}" space="{{true}}" selectable='true'><text class='help_tips_hd'>报名须知\n</text>{{update_content}}</text>
+    </view>
+  </view>
+  <view class='help_tips_container'>
+    <view class='help_tips2'>
+      <text decode="{{true}}" space="{{true}}" selectable='true'><text class='help_tips_hd'>欢迎使用ELAB招新小程序，现在向您介绍本小程序使用流程，请仔细阅读。\n</text>1.打开本小程序会首先看到“报名须知”页面
+2.在仔细阅读后请到“报名”页面填写个人信息（请完整填写）
+3.在个人信息成功填写后，可以到“面试”页面选择适合自己的面试时间（需在开放时间内选择）
+4.在选择面试时间后，可以到“我的”页面，使用“我的面试”功能查看自己的面试时间、场次及个人编号；在面试结果发布后也请使用“我的面试”功能查看自己的面试结果。
+5.“我的”页面中含有“科中简介”功能，可从此功能中查看科中的位置并进行导航。</text>
+    </view>
+  </view>
+
+</view>

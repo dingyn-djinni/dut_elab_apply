@@ -1,0 +1,20 @@
+<!--pages/admin/introduce.wxml-->
+<view class='container'>
+  
+  <view class='help_tips_container'>
+    <view class='help_tips1'>
+      <text decode="{{true}}" space="{{true}}" selectable='true'><text class='help_tips_hd'>科中简介  （下面有科中的定位哦）\n</text>{{update_content}}</text>
+    </view>
+  </view>
+  <view class='help_tips_container'>
+    <view class='help_tips2'>
+      <text decode="{{true}}" space="{{true}}" selectable='true' style='font-size:12px'>电气创新实践基地（简称科中）成立于1998年，依托于电气实验教学中心，齐全的硬件设施，优秀的创新实践氛围，为广大电子设计和软件开发爱好者创造良好的环境。
+·60多台高配置电脑 & 完整的实验器材——让专业研究更加高效！
+·150多台拆装电脑——教你2分钟搞定一台电脑！
+·指导教师2名，多名流动技术人员，高年级带低年级的管理制度及学习模式——为你指点迷津！
+·修满创新实践要求的所有学分，学校将颁发大连理工大学电气创新实践基地结业证书，在今后的读研、工作中有很大优势，可增加推荐免试研究生的资本</text>
+    </view>
+  </view>
+
+</view>
+<button class="buttonsty" bindtap="map" style="text-align: middle">点击查看科中位置</button>

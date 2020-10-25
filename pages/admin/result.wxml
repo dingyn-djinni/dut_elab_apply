@@ -1,0 +1,64 @@
+<!--<view class="page-body">
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">姓名：{{name}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">学号：{{id}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">组别：{{group}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">面试时间：{{date}} {{time}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+      <view wx:if="{{nowtime>=endtime}}">
+       <text decode="{{true}}" space="{{true}}">结果：{{ans}} </text>
+       </view>
+       <view wx:else>
+        <text decode="{{true}}" space="{{true}}">结果：未发布 </text>
+        </view>
+    </view>  
+  </view>
+</view>-->
+
+
+<text class="title">面试信息</text>
+<view class="all-point">
+  <view class="hint">你的面试信息：</view>
+  <view class="point">
+    <image src="/images/checkPoint.png" class="point-picture"></image>
+    <view class="point-content">姓名：{{name}}</view>
+  </view>
+  <view class="point">
+    <image src="/images/checkPoint.png" class="point-picture"></image>
+    <view class="point-content">所报组别：{{group}}</view>
+  </view>
+  <view class="point">
+    <image src="/images/checkPoint.png" class="point-picture"></image>
+    <view class="point-content">面试时间：{{date}} {{time}}</view>
+  </view>
+  <view class="point">
+    <image src="/images/checkPoint.png" class="point-picture"></image>
+    <view class="point-content">面试场次：{{changci}}</view>
+  </view>
+  <view class="point">
+    <image src="/images/checkPoint.png" class="point-picture"></image>
+    <view wx:if="{{nowtime<=starttime}}" class="point-content">编号暂未发布</view>
+    <view wx:else class="point-content">你的编号：{{bianhao}}</view>
+  </view>
+  <view class="point">
+    <image src="/images/checkPoint.png" class="point-picture"></image>
+    <view wx:if="{{nowtime>=endtime}}" class="point-content">面试结果：{{ans}}</view>
+    <view wx:else class="point-content">面试结果：未审核</view>
+  </view>
+</view>

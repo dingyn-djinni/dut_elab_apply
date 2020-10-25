@@ -1,0 +1,85 @@
+<view class="page-body">
+<view class="section">
+  <view class="section__title">选择日期</view>
+  <picker mode="date" value="{{date}}" start="2019-09-20" end="2099-10-01" bindchange="bindDateChange">
+    <view class="input_style">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view>
+<text>\n </text>
+<view class="section">
+  <view class="section__title">设置时间</view>
+  <picker mode="time" value="{{time}}" start="09:01" end="22:01" bindchange="bindTimeChange">
+    <view class="input_style">
+      当前选择: {{time}}
+    </view>
+  </picker>
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置容量</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur" class="input_style" value="{{capacity}}" placeholder="例如12"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置组别</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur2" class="input_style" placeholder="例如1"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置主面</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur3" class="input_style" placeholder="必填"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置副面1</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur4" class="input_style" placeholder="必填但不会判断真的填没填"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置副面2</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur5" class="input_style" placeholder="必填但不会判断真的填没填"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置副面3</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur6" class="input_style" placeholder="这个可以不填"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置副面4</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur7" class="input_style" placeholder="这个也可以不填"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置副面5</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur8" class="input_style" placeholder="这个也可以不填"/>
+    </view> 
+</view>
+<text>\n </text>
+<view class="section">
+ <view class="section-title">设置副面6</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur9" class="input_style" placeholder="这个也可以不填"/>
+    </view> 
+</view>
+<text>\n </text>
+  <button type="primary" bindtap='add'>添加</button>
+  <button type="primary" bindtap='check'>查看</button>
+</view>

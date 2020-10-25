@@ -1,0 +1,30 @@
+<view class="score_info_container">
+<view wx:if="{{nowtime>=endtime||nowtime<=starttime}}">报名时间未开放</view>
+<view wx:else class='all'>
+  <view wx:for="{{all_time}}" class="score_info_box">
+    <view class="score_info_inside">
+      <view class="score_info_hd">
+        <view class='score_info_name'>
+          <view class='score_info_class_name'>
+            <text decode='true'>场次：{{item.num}}</text>
+          </view>
+          <view class='score_info_class_time'>
+            <text decode="{{true}}" space="{{true}}">余量：{{item.last}}/{{item.capacity}}</text>
+          </view>
+        </view>
+      </view>
+      <view class="score_info_ft">
+        <view class='score_info_other'>
+          <text decode='true' space="{{true}}" class="score_info_other_text">面试时间:{{item.date}}&nbsp;&nbsp;&nbsp;{{item.time}}</text>
+        </view>
+          <view class="select_button_outside">
+            <view bindtap='tips' data-id="{{item.num}}" class="selete_time_button"  wx:if="{{stutime!=item.num}}">
+              <text class="select_button_text">点此选择</text>
+            </view>
+            <view class="selete_time_button2" style="color: white" wx:if="{{stutime==item.num}}">已选择</view>
+          </view>
+        </view>
+    </view>
+  </view>
+  </view>
+</view>

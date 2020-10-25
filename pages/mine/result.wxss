@@ -1,0 +1,26 @@
+.card {
+  width: 95%;
+  background-color: #fff;
+  margin: 24rpx auto 0;
+  border-radius: 24rpx;
+}
+
+.card-shadow {
+  box-shadow: 10rpx 20rpx 20rpx #999;
+}
+.nearCard-fr {
+  font-size: 35rpx;
+  line-height: 50rpx;
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 15rpx;
+  color: #999;
+}
+
+.nearCard-fr text {
+  font-size: 22rpx;
+}
+.c-green {
+  color: #41e0e0;
+}
+/* pages/admin/result.wxss */

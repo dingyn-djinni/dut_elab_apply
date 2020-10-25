@@ -1,0 +1,52 @@
+<view class="page">
+  <text class="feedbackPageTitle">报名信息</text>
+  <form bindsubmit='formSubmit'>
+  <view wx:if="{{flag}}">
+    <input class="input_style" value='{{name}}' name='name'></input></view>
+  <view wx:else>
+    <input class="input_style" placeholder='姓名' name='name'></input></view>
+  <view wx:if="{{flag}}">
+    <input class="input_style" value='{{id}}' name='id'></input></view>
+  <view wx:else>
+    <input class="input_style" placeholder='学号' name='id'></input></view>
+  <view wx:if="{{flag}}">
+    <input class="input_style" value='{{classes}}' name='classes'></input></view>
+  <view wx:else>
+    <input class="input_style" placeholder='班级，如电信1903' name='classes'></input></view>
+  <view wx:if="{{flag}}">
+    <input class="input_style" value='{{zhiwu}}' name='zhiwu'></input></view>
+  <view wx:else>
+    <input class="input_style" placeholder='学生职务，如级队长、班级学委' name='zhiwu'></input></view>
+  <view wx:if="{{flag}}">
+    <input class="input_style" value='{{phonenum}}' name='phonenum'></input></view>
+  <view wx:else>
+    <input class="input_style" placeholder='电话号码' name='phonenum'></input></view>
+    <view class="picker_all">
+      <picker bindchange="pickerChange" value="{{picker_index}}" range="{{group}}">
+        <view class="picker_inner">
+          <view class="picker_content">
+            {{group[picker_index]}}
+          </view>
+          <image src="/images/dropdown.png" class="picker_icon"></image>
+        </view>
+      </picker>
+    </view>
+  <view wx:if="{{flag}}">
+    <textarea name='hobby' class='input_textarea' value='{{hobby}}'></textarea></view>
+  <view wx:else>
+    <textarea name='hobby' class='input_textarea' placeholder='个人兴趣爱好及特长（不超过100字）'></textarea></view>
+  <view wx:if="{{flag}}">
+    <textarea name='prize' class='input_textarea' value='{{prize}}'></textarea></view>
+  <view wx:else>
+    <textarea name='prize' class='input_textarea' placeholder='获得过那些奖项（不超过100字）'></textarea></view>
+  <view wx:if="{{flag}}">
+    <textarea name='rs' class='input_textarea' value='{{rs}}'></textarea></view>
+  <view wx:else>
+    <textarea name='rs' class='input_textarea' placeholder='为什么想加入科中（不超过150字）'></textarea></view>
+  <view wx:if="{{flag}}">
+    <button form-type='submit' class='submit2'>修改</button></view>
+  <view wx:else>
+    <button form-type='submit' class='submit'>提交</button></view>
+    
+  </form>
+</view>

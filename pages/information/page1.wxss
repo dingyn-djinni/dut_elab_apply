@@ -1,0 +1,152 @@
+textarea {
+  width: 700rpx;
+  padding: 20rpx 0;
+}
+
+.textarea-wrp {
+  padding: 0 25rpx;
+  background-color: #fff;
+}
+
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section:last-child{
+  margin-bottom: 0;
+}
+
+.page-section-title{
+  font-size: 32rpx;
+  color: #010005;
+  margin-bottom: 10rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.buttonsty{
+  color: #0cbe1b;
+  height: 100rpx;
+  width: 50%;
+  
+}
+.feedbackPageTitle{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 45rpx;
+  margin-bottom: 25rpx;
+}
+
+.submitButton{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.input_style{
+  height: 75rpx;
+  width: 700rpx;
+  border-radius: 10rpx;
+  border: 3rpx solid #dce4ec;
+  padding: 6rpx 18rpx;
+  box-sizing: border-box;
+  background-color:rgb(255, 255, 255);
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+}
+
+.input_textarea{
+  height: 130rpx;
+  width: 700rpx;
+  border-radius: 10rpx;
+  border: 3rpx solid #dce4ec;
+  padding: 6rpx 18rpx;
+  box-sizing: border-box;
+  background-color:rgb(255, 255, 255);
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  height: 100rpx;
+  width: 700rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 50rpx;
+  box-sizing: border-box;
+  background-color: #009ACD;
+  color: #fff;
+}
+.submit2{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  height: 100rpx;
+  width: 700rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 50rpx;
+  box-sizing: border-box;
+  background-color: rgb(0, 248, 21);
+  color: #fff;
+}
+
+.picker_all{
+  display: flex;
+  flex-direction: row;
+}
+
+.picker_inner{
+  display: flex;
+  flex-direction: row;
+}
+
+.picker_icon{
+  height:60rpx;
+  width:60rpx;
+  margin-top:26rpx;
+}
+
+.picker_content{
+  width:170rpx;
+  height: 75rpx;
+  border-radius: 10rpx;
+  border: 3rpx solid #dce4ec;
+  padding: 4rpx 18rpx;
+  box-sizing: border-box;
+  background-color:rgb(255, 255, 255);
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+  color:#070707;
+}
+
+.picker_input{
+  height: 75rpx;
+  width: 430rpx;
+  border-radius: 10rpx;
+  border: 3rpx solid #dce4ec;
+  padding: 6rpx 18rpx;
+  box-sizing: border-box;
+  background-color:rgb(255, 255, 255);
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+  margin-left:40rpx;
+}

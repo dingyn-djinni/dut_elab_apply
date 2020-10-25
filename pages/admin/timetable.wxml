@@ -1,0 +1,17 @@
+<view class="score_info_container">
+  <view wx:for="{{all_time}}" class="score_info_box">
+    <view class="score_info_inside">
+      <view class="score_info_hd">
+        <view class='score_info_name'>
+          <view class='score_info_class_name'>场次：{{item.num}}   面试时间:{{item.date}} {{item.time}}</view>
+        </view>
+      </view>
+      <view class="score_info_ft">
+        <view class='score_info_other'>
+          <text decode="{{true}}" space="{{true}}">容量：{{item.capacity}}  剩余量：{{item.last}}</text>
+        </view>
+        <button bindtap='tips' data-id="{{item.num}}" class="selete_time_button" plain="true" style="color: red">删除</button>
+      </view>
+    </view>
+  </view>
+</view>

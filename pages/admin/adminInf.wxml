@@ -1,0 +1,17 @@
+<view class="page-body">
+  <view class="page-section">
+    <view class="page-section-title">姓名</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur1" auto-height value="{{name}}" />
+    </view>  
+    <view class="page-section-title">学号</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur0" auto-height value="{{id}}" />
+    </view> 
+    <view class="page-section-title">组别</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur2" auto-height value="{{group}}" />
+    </view> 
+</view>
+  <button type="primary" bindtap='finish'>提交</button>
+</view>

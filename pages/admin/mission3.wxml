@@ -1,0 +1,27 @@
+<view class="page-body">
+  <view class="page-section">
+    <view class="page-section-title">获得过那些奖项</view>
+    <view class="textarea-wrp">
+      <text decode="{{true}}" space="{{true}}">{{text1}} </text>
+    </view> 
+    <view class="page-section-title">为什么想加入科中</view>
+   <view class="textarea-wrp">
+      <text decode="{{true}}" space="{{true}}">{{text2}} </text>
+    </view> 
+    <view class="page-section-title">考官意见</view>
+    <view class="textarea-wrp">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      当前选择：{{array[index]}}
+    </view>
+  </picker>
+    </view> 
+    <view class="page-section-title">打分理由（请不要超过20个字）</view>
+    <view class="textarea-wrp">
+      <textarea bindinput="bindTextAreaBlur2" auto-height value="{{text3}}" />
+    </view> 
+
+  </view>
+  <button class="buttonsty" bindtap='finish'>确认</button>
+   <button class="buttonsty" bindtap='back'>返回上一页</button>
+</view>

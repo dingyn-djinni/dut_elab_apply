@@ -1,0 +1,42 @@
+<view class="page-body">
+
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">姓名：{{name}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">学号：{{license}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">组别：{{groups}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">得分：{{aver}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">获得奖项：{{text1}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">加入科中原因：{{text2}}</text>
+    </view>  
+  </view>
+  <view class="page-section">
+    <view class="textarea-wrp">
+       <text decode="{{true}}" space="{{true}}">结果：{{result}}</text>
+    </view>  
+  </view>
+
+
+    <button type="primary" bindtap='check'>查看考官意见</button>
+  <button  bindtap='back'>返回</button>
+</view>

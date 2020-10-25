@@ -1,0 +1,83 @@
+/* pages/information/page2.wxss */
+.score_info_container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 25rpx;
+}
+.selete_time_button{
+  margin: auto;
+  right: 0rpx;
+  height: 50rpx;
+  font-size: 24rpx;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  overflow: hidden;
+  
+}
+
+.score_info_box {
+  width: 700rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  margin-bottom: 25rpx;
+  box-shadow: 0 0 15rpx #ddd;
+}
+
+.score_info_inside {
+  width: 650rpx;
+  margin-left: 25rpx;
+}
+
+.score_info_hd {
+  height: 70rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #3498db;
+}
+
+.score_info_name {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score_info_class_name {
+  font-size: 34rpx;
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+  -o-text-overflow:ellipsis; 
+  overflow: hidden;
+}
+
+.score_info_bd {
+  padding-top: 6rpx;
+  padding-bottom: 6rpx;
+}
+
+.score_info_ft {
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+}
+
+.score_info_other {
+  font-size: 24rpx;
+  color: #7f8c8d;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  overflow: hidden;
+}/* pages/admin/mission.wxss *//* pages/admin/allinf.wxss */
+.buttonsty{
+  color: #0cbe1b;
+  height: 100rpx;
+  width: 50%;
+  
+}

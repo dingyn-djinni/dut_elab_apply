@@ -1,0 +1,20 @@
+<view class="score_info_container">
+  <view wx:for="{{all_time}}" class="score_info_box">
+    <view class="score_info_inside">
+      <view class="score_info_hd">
+        <view class='score_info_name'>
+          <view class='score_info_class_name'>考官姓名：{{item.name}}   评分:{{item.score}}</view>
+        </view>
+      </view>
+      <view class="score_info_ft">
+        <view class='score_info_other'>
+          <text decode="{{true}}" space="{{true}}">评分理由：{{item.reason}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <button type="primary" bindtap='accept'>通过</button>
+  <button type="warn" bindtap='dead'>枪毙</button>
+  <button  bindtap='back'>返回</button>
+</view>
+

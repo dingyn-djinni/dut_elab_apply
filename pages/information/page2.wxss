@@ -1,0 +1,128 @@
+/* pages/information/page2.wxss */
+
+.all{
+  margin-left:10rpx;
+  margin-right:10rpx;
+}
+.score_info_container {
+  /*width: 100%;*/
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 25rpx;
+}
+.selete_time_button{
+  height: 50rpx;
+  font-size: 30rpx;
+  padding-top: 8rpx;
+  text-align: center;
+  border: 3rpx solid #696969;
+  border-radius: 98rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.select_button_outside{
+  margin-top:15rpx;
+  margin-left:440rpx;
+  margin-right:20rpx;
+}
+
+.select_button_text{
+  text-align: center;
+  margin-top: -8rpx;
+}
+
+.selete_time_button2{
+  height: 50rpx;
+  font-size: 30rpx;
+  padding-top: 8rpx;
+  text-align: center;
+  background-color: rgb(16, 148, 255);
+  border-radius: 98rpx;
+}
+
+.score_info_box {
+  /*width: 750rpx;*/
+  height: 250rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  margin-bottom: 25rpx;
+  box-shadow: 0 0 15rpx #ddd;
+}
+
+.score_info_inside {
+  width: 650rpx;
+  margin-left: 25rpx;
+}
+
+.score_info_hd {
+  height: 100rpx;
+  width: 630rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #3498db;
+}
+
+.score_info_name {
+  /*width: 100%;*/
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score_info_class_name {
+  width: 450rpx;
+  font-size: 34rpx;
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+  -o-text-overflow:ellipsis; 
+  overflow: hidden;
+}
+
+.score_info_other_text{
+  font-size: 35rpx;
+}
+
+.score_info_class_time {
+ /* width: 100%;*/
+  font-size: 34rpx;
+  /*margin-left: -20rpx;*/
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+  -o-text-overflow:ellipsis; 
+  overflow: hidden;
+}
+
+.score_info_class_date {
+  /*width: 100%;*/
+  font-size: 34rpx;
+  margin-left: 0rpx;
+  margin-top: -40rpx;
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+  -o-text-overflow:ellipsis; 
+  overflow: hidden;
+}
+.score_info_bd {
+  padding-top: 6rpx;
+  padding-bottom: 6rpx;
+}
+
+.score_info_ft {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.score_info_other {
+  margin-top:15rpx;
+  font-size: 26rpx;
+  color: #7f8c8d;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  overflow: hidden;
+}

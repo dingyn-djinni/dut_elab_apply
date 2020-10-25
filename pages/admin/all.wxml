@@ -1,0 +1,17 @@
+<view class="score_info_container">
+  <view wx:for="{{all_time}}" class="score_info_box">
+    <view class="score_info_inside">
+      <view class="score_info_hd">
+        <view class='score_info_name'>
+          <view class='score_info_class_name'>姓名：{{item.name}}  </view>
+        </view>
+      </view>
+      <view class="score_info_ft">
+        <view class='score_info_other'>
+          <text decode="{{true}}" space="{{true}}"> 学号:{{item.license}}  \n组别：{{item.groups}} 得分:{{item.aver}}</text>
+        </view>
+        <button bindtap='tips' data-id="{{item.openid}}" class="selete_time_button" >点此查看</button>
+      </view>
+    </view>
+  </view> 
+</view>
