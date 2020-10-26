@@ -1,3 +1,3 @@
 # dut_elab_apply
 
-A recruit program for dlut-elab
+大连理工大学电气创新实践基地招新小程序
